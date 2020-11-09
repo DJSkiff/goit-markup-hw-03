@@ -1,0 +1,53 @@
+.main-header {
+  background-color: #2f303a;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.futures {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.what-we-do {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2 {
+  display: none;
+}
+
+h3 {
+  text-align: center;
+  font-size: 36px;
+}
+h4 {
+  text-align: center;
+  font-size: 36px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.futures p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
