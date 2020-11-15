@@ -123,6 +123,7 @@ h2 {
 .f-conteiner {
   display: flex;
   justify-content: space-between;
+  flex-basis: calc(100% / 4);
 }
 
 .futures li {
@@ -160,7 +161,13 @@ h2 {
   justify-content: space-between;
 }
 
+.t-container > li {
+  flex-direction: column;
+  display: flex;
+}
+
 figure {
+  flex-grow: 1;
   width: 270px;
   margin: 0;
   background-color: #ffffff;
@@ -248,6 +255,8 @@ figcaption {
 }
 
 .portfolio > li {
+  display: flex;
+  flex-direction: column;
   margin-right: 27px;
   margin-bottom: 27px;
   flex-basis: calc(100% / 3-27px);
